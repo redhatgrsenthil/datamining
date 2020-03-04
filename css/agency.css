@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -149,7 +149,8 @@ img::-moz-selection {
     padding-top: 25px;
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;    
+    border: none;
+    background-color: rgba(0, 0, 0, 0.4);
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -169,7 +170,7 @@ img::-moz-selection {
   }
 }
 
-/* header.masthead {
+header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/header-bg.jpg");
@@ -177,7 +178,7 @@ img::-moz-selection {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-} */
+}
 
 header.masthead .intro-text {
   padding-top: 150px;
