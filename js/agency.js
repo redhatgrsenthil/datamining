@@ -38,5 +38,20 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
-
+  $(window).on('load',function() {
+    $('#ensign-nivoslider').nivoSlider({
+      effect: 'random',
+      slices: 15,
+      boxCols: 12,
+      boxRows: 8,
+      animSpeed: 500,
+      pauseTime: 5000,
+      startSlide: 0,
+      directionNav: true,
+      controlNavThumbs: false,
+      pauseOnHover: true,
+      manualAdvance: false,
+    });
+  });
+  
 })(jQuery); // End of use strict
