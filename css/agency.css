@@ -82,6 +82,97 @@ img::-moz-selection {
   background: transparent;
 }
 
+hr.bottom-line {
+  height: 3px;
+  width: 60px;
+  background: #601b74;
+  position: relative;
+  border: 0;
+  margin: 20px 0 20px 0;
+}
+
+.card {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.card:hover {
+  box-shadow: 5px 7px 9px -4px;
+}
+
+.card .card-title {
+  margin-bottom: .75rem;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.card .card-text {
+  font-size: 12px;
+  height: 100px;
+}
+
+.card .card-block {
+  margin: 20px;
+}
+
+@-webkit-keyframes card {
+  15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes card {
+  15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.card:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.markettitle {
+  color: #601b74;
+  font-size: 1.2rem;
+}
+
 .btn {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
