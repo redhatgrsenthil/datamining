@@ -17,7 +17,7 @@ Supports Thumbs: true
 }
 
 .slider-content {
-  padding: 180px 60px;
+  padding: 300px 60px;
 }
 
 .nivo-caption::after {
@@ -89,9 +89,8 @@ Supports Thumbs: true
 
 .nivo-controlNav {
   bottom: 0;
-  left: 0;
   position: absolute;
-  right: 0;
+  right: 20px;
   z-index: 8;
 }
 
@@ -103,7 +102,7 @@ Supports Thumbs: true
   background: transparent none repeat scroll 0 0;
   border: 2px solid #fff;
   box-shadow: none;
-  display: inline-block;
+  display: block;
   font-size: 0;
   height: 2px;
   margin: 5px 3px;
@@ -126,7 +125,7 @@ Supports Thumbs: true
 /* Normal desktop :992px. */
 
 @media (min-width: 1400px) and (max-width:1920px) {
-  .slider-content {
+  .slider-content {    
     padding: 340px 0;
   }
 }
@@ -188,13 +187,13 @@ Supports Thumbs: true
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .slider-content {
+  .slider-content {    
     padding: 70px 0px;
   }
   .layer-1-1 h2, .layer-1-2 h1 {
-    font-size: 24px;
+    font-size: 12px;
     line-height: 30px;
-  }
+  }  
 }
 
 /* -------------------------------------
@@ -399,3 +398,4 @@ preview-2
   position: relative;
   height: 100%;
 }
+
