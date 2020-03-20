@@ -17,7 +17,19 @@ Supports Thumbs: true
 }
 
 .slider-content {
-  padding: 300px 60px;
+  padding: 300px 170px;
+}
+.slider-content-1 {
+  padding: 300px 185px;
+}
+.slider-content-2 {
+  padding: 300px 120px;
+}
+.slider-content-3 {
+  padding: 300px 165px;
+}
+.slider-content-4 {
+  padding: 300px 310px;
 }
 
 .nivo-caption::after {
@@ -188,12 +200,17 @@ Supports Thumbs: true
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .slider-content {    
-    padding: 70px 0px;
+    padding: 90px 20px;
   }
+  
   .layer-1-1 h2, .layer-1-2 h1 {
     font-size: 12px;
     line-height: 30px;
   }  
+  .slider-content div {
+    font-size: 14px;
+    font-weight: normal;
+}
 }
 
 /* -------------------------------------
