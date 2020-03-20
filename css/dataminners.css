@@ -913,3 +913,7 @@ hr.style-two {
 section#profile {
   padding-top: 120px;
 }
+
+.fab {
+  color: gray;
+}
